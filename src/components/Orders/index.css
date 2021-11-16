@@ -1,0 +1,105 @@
+.orders-container {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 24rem;
+    height: 20rem;
+    margin: 8rem 5rem 0rem 0rem;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-color: #fff;
+    border-radius: 18px;
+    position: absolute;
+    box-shadow: 0 0 1em #00000025;
+}
+
+.orders-container.active {
+    align-items: unset;
+    justify-content: unset;
+}
+
+.orders-div-img {
+    align-items: center;
+    text-align: center;
+    padding: 3rem;
+}
+
+.orders-text {
+    text-align: center;
+    margin: 0.2rem;
+    width: 20rem;
+    letter-spacing: 1px;
+}
+
+.orders-text-title {
+    padding: 2rem;
+    font-size: 1rem;
+}
+
+.orders-scroll {
+    overflow-y: scroll;
+    margin-bottom: 17vh;
+}
+
+.orders-scroll::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+}
+
+.orders-scroll::-webkit-scrollbar-thumb {
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.orders-items,
+.orders-total {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1.2rem 2rem 0.8rem;
+}
+
+.orders-h1 {
+    font-size: 1.4rem;
+    background-color: var(--amarelo);
+    padding: 1.2rem 0rem;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.orders-p-voucher {
+    font-weight: bold;
+}
+
+.orders-div-total {
+    margin: 14rem 1.2rem 1rem;
+    position: fixed;
+}
+
+.orders-total.active {
+    width: 190%;
+}
+
+.orders-total {
+    margin: 0rem 0rem 1rem;
+    border-top: 1px solid grey;
+    padding: 0.5rem 0.5rem 0rem;
+    width: 90%;
+}
+
+.orders-btn {
+    width: 22rem;
+    background-color: var(--cinza);
+    color: #fff;
+}
+
+.orders-btn:hover {
+    color: var(--amarelo);
+    transition: all ease 0.8s;
+}
+
+.orders-btn-active {
+    display: none;
+}

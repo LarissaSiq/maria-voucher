@@ -1,0 +1,5 @@
+@media(max-width: 930px) {
+    .sidebar-container {
+        display: none;
+    }
+}

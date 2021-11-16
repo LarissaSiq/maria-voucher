@@ -1,0 +1,25 @@
+@media(max-width: 930px) {
+    .home-container {
+        min-height: 105vh;
+        width: 100%;
+    }
+
+    .home-img-maria {
+        padding: 0rem 0rem 0rem;
+    }
+
+    .home-texto {
+        width: 20rem;
+    }
+
+    .home-button {
+        width: 13rem;
+        padding: 0.5rem;
+        margin: 1.5rem 0rem 0rem;
+        color: white;
+    }
+
+    .home-titulo {
+        padding: 0rem 1rem;
+    }
+}

@@ -1,0 +1,103 @@
+.register-container {
+    display: flex;
+    background: url('../../assets/img/background-left.png');
+    background-size: 100%;
+    background-position: center;
+}
+
+.register-logo {
+    width: 50%;
+    height: 100vh;
+}
+
+.register-logo-black {
+    width: 5rem;
+    position: absolute;
+    margin: 1rem 10rem;
+}
+
+.register-name-black {
+    width: 30rem;
+    margin: 2rem 0rem;
+}
+
+.register-form-group {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 50%;
+    margin: 0rem 0rem 0rem 10rem;
+}
+
+.register-H1 {
+    margin: 1rem 0rem;
+    font-size: 2rem;
+    color: var(--amarelo);
+}
+
+.register-H1-mobile {
+    display: none;
+}
+
+.register-fieldset {
+    background-color: #fff;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    width: 20rem;
+    padding: 2rem 0rem;
+    border: none;
+    margin: 0rem 0rem 1rem;
+}
+
+.register-input {
+    width: 15rem;
+}
+
+.register-label {
+    font-size: 0.8rem;
+    text-align: start;
+    margin: 0rem 0rem 0rem 0.5rem;
+}
+
+.register-button {
+    margin: 1rem 0.3rem 0rem;
+    color: #fff;
+    background-color: var(--amarelo);
+    font-weight: bold;
+}
+
+.register-button:hover {
+    background-color: #363739;
+    transition: all ease 0.6s;
+}
+
+.register-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.register-p {
+    border-top: 1px solid #0000001c;
+    margin: 0.2rem 0.2rem 0.2rem;
+    padding: 0.8rem 0rem 0rem;
+    font-size: 0.9rem;
+}
+
+.register-back-login {
+    color: white;
+    margin: 0rem;
+    text-decoration: none;
+}
+
+.register-back-login-mobile {
+    display: none;
+}
+
+.register-back-login:hover {
+    color: var(--amarelo);
+    text-decoration: underline;
+    transition: all ease 0.5s;
+}

@@ -1,0 +1,74 @@
+.load {
+    animation: fadeOut 4s;
+    animation-fill-mode: forwards;
+    transition: 1s;
+    width: 100vw;
+    height: 100vh;
+    background: #000000dc;
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    z-index: 3;
+    transform: scale(1);
+}
+
+.cup {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 150px;
+    height: 180px;
+    border: 6px solid #262626;
+    border-top: 2px solid transparent;
+    border-radius: 15px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    background: url('../../assets//img/Waves.png');
+    background-size: cover;
+    background-repeat: repeat-x;
+    animation: animate 4s linear;
+    animation-iteration-count: 1;
+    box-shadow: 0 0 0 6px #fff, 0 20px 35px rgba(0, 0, 0, 1);
+}
+
+.cup:before {
+    content: "";
+    position: absolute;
+    width: 50px;
+    height: 80px;
+    border: 6px solid #fff;
+    right: -68px;
+    top: 30px;
+    border-top-right-radius: 35px;
+    border-bottom-right-radius: 35px;
+}
+
+@keyframes animate {
+    0% {
+        background-position: 0 150px;
+    }
+
+    10% {
+        background-position: 0 150px;
+    }
+
+    100% {
+        background-position: 3000px -30px;
+    }
+
+}
+
+
+@keyframes fadeOut {
+    80% {
+        transition: all ease;
+        opacity: 0.9;
+    }
+
+    100% {
+        transition: all ease;
+        opacity: 0;
+        visibility: hidden;
+    }
+}

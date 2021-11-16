@@ -1,0 +1,48 @@
+@media(max-width: 930px) {
+    .seevoucher-item {
+        width: auto;
+    }
+
+    .seevoucher-data {
+        margin: 0rem 0.6rem;
+        width: 100%;
+    }
+
+    .vouchers-complete {
+        width: auto;
+    }
+
+    .seevoucher-scroll {
+        font-size: 0.8rem;
+        width: 70vw;
+        overflow-x: hidden;
+    }
+
+    .seevoucher-options {
+        width: 70%
+    }
+}
+
+@media(max-width: 320px) {
+    .seevoucher-options {
+        width: 73.3%
+    }
+}
+
+@media(min-width: 280px) and (max-width: 320px) {
+    .seevoucher-options {
+        width: 75%
+    }
+
+    .seevoucher-scroll {
+        width: 75vw;
+    }
+
+    .seevoucher-item {
+        width: 75vw;
+    }
+
+    .seevoucher-main {
+        width: auto;
+    }
+}

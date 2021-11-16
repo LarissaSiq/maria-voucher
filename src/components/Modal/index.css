@@ -1,0 +1,106 @@
+.modal-container {
+    transition: all ease 1s;
+    width: 100vw;
+    height: 100vh;
+    background: #000000b0;
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    z-index: 3;
+}
+
+.modal-voucher {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 28rem;
+    background-color: white;
+    border-radius: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+
+.modal-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: var(--amarelo);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.modal-code,
+.modal-email {
+    font-size: 1.2rem;
+}
+
+.modal-rows {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    overflow-y: scroll;
+    max-height: 12rem;
+    padding: 2rem 0rem 1rem;
+}
+
+.modal-values {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 90%;
+}
+
+.modal-div-btn {
+    display: flex;
+    padding: 0.8rem 0rem;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0rem 0.8rem;
+    border-top: 1px solid grey;
+}
+
+.modal-btn {
+    margin: 0.3rem 0rem;
+    padding: 1rem 5vw;
+    background-color: var(--cinza);
+    color: white;
+    font-weight: bold;
+}
+
+.modal-btn:hover {
+    background-color: var(--amarelo);
+    transition: all ease 1s;
+}
+
+.modal-rows::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+}
+
+.modal-rows::-webkit-scrollbar-thumb {
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.modal-column-row {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.modal-p-code {
+    text-align: start;
+    padding: 0rem 1rem;
+}
+
+.modal-input-email {
+    font-size: 1rem;
+}

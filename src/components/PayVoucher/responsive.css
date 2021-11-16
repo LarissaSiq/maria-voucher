@@ -1,0 +1,99 @@
+@media(max-width: 930px) {
+
+    .payment-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .payment-h1 {
+        font-size: 1rem;
+        padding: 1.5rem 0rem 0rem;
+    }
+
+    .payment-options {
+        width: 80vw;
+    }
+
+    .payment-h2 {
+        font-size: 1.2rem;
+    }
+
+    .payment-text-card,
+    .payment-text {
+        font-size: 0.9rem;
+    }
+
+    .payment-btn {
+        font-size: 0.9rem;
+        background-color: var(--cinza);
+        width: 100%;
+    }
+
+    .payment-btn:hover {
+        background-color: var(--amarelo);
+        color: white;
+        transition: all ease 0.8s;
+    }
+
+    .rccs__number {
+        background-color: rgb(145, 145, 145);
+        font-size: 1rem;
+    }
+
+    .rccs {
+        width: 80%;
+    }
+
+    .payment-data {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: unset;
+        margin: unset;
+        padding: 1rem 1rem;
+        background-color: transparent;
+        box-shadow: none;
+    }
+
+    .rccs__name {
+        font-size: 0.9rem;
+        width: 90%;
+    }
+
+    .form-card,
+    .form-card-validate,
+    .form-card-cvv {
+        font-size: 0.8rem;
+        align-items: center;
+        padding: 0.5rem 0.2rem;
+    }
+
+
+    .form-card::placeholder,
+    .form-card-validate::placeholder,
+    .form-card-cvv::placeholder {
+        font-size: 0.8rem;
+    }
+
+    .payment-back {
+        margin: 3.3rem 0rem 0rem 0rem;
+    }
+
+    .payment-complete {
+        width: 60vw;
+    }
+
+    .check {
+        color: var(--cinza);
+    }
+
+    .payment-p-complete {
+        color: var(--amarelo);
+    }
+
+    .payment-p-complete:hover {
+        color: var(--cinza);
+    }
+}

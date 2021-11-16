@@ -1,0 +1,5 @@
+@media(max-width: 930px) {
+    .header-container {
+        display: flex;
+    }
+}

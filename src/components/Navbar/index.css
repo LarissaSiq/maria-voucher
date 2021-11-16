@@ -1,0 +1,52 @@
+.navbar-container {
+    display: none;
+    width: 100vw;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: var(--amarelo);
+    border-top: thin solid #d4d4d4;
+    z-index: 2;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.navbar-buy-vouchers,
+.navbar-see-vouchers {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 0.5rem 2rem;
+    cursor: pointer;
+}
+
+.navbar-buy-vouchers.active,
+.navbar-see-vouchers.active {
+    background-color: #ffd45f;
+    transition: all ease 0.9s;
+    font-size: 1.3rem;
+}
+
+.navbar-buy-vouchers:hover,
+.navbar-see-vouchers:hover {
+    background-color: #ffd45f;
+    transition: all ease 0.9s;
+    font-size: 1.3rem;
+}
+
+.navbar-p {
+    text-align: center;
+    width: 6rem;
+    margin: 0.4rem 0rem 0rem 0rem;
+    letter-spacing: 1px;
+    font-size: 0.8rem;
+}
+
+.header-h1 {
+    font-weight: bold;
+
+}

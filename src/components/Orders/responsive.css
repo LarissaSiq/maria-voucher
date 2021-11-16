@@ -1,0 +1,67 @@
+@media(max-width: 930px) {
+    .orders-container {
+        display: flex;
+        height: 20rem;
+        width: 100vw;
+        margin: 0rem;
+        right: unset;
+        top: unset;
+        bottom: unset;
+        background-color: #f8f8f8;
+        border-radius: 0;
+        position: relative;
+        box-shadow: none;
+        align-items: center;
+    }
+
+    .orders-div-img {
+        padding: 1rem 0rem;
+    }
+
+    .orders-text {
+        margin: 0.2rem 0rem;
+    }
+
+    .orders-title {
+        padding: 2rem 0rem;
+    }
+
+    .orders-h1 {
+        font-size: 1rem;
+        background-color: var(--cinza);
+        padding: 0.7rem 0rem;
+        color: white;
+        border-radius: unset;
+        padding: 0.6rem 0rem;
+    }
+
+    .orders-scroll {
+        margin-bottom: 40vh;
+    }
+
+    .orders-btn {
+        width: 80vw;
+        background-color: var(--cinza);
+        color: #fff;
+    }
+
+    .orders-p-voucher,
+    .orders-p-qtd {
+        font-size: 0.9rem;
+    }
+
+    .orders-div-total {
+        width: 90%;
+        position: fixed;
+        margin: 25vh 1.2rem 1rem;
+    }
+
+    .orders-items {
+        padding: 0.6rem 2rem 0.8rem;
+    }
+
+    .orders-total.active {
+        width: 90%;
+    }
+
+}

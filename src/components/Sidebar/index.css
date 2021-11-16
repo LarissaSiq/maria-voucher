@@ -1,0 +1,86 @@
+.sidebar-container {
+    width: 15vw;
+    min-height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    background: var(--cinza);
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.sidebar-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-bottom: 1px solid #ffffff50;
+    padding: 0rem 0rem 0.9rem;
+}
+
+.sidebar-logout-icon {
+    cursor: pointer;
+}
+
+.sidebar-logout-icon:hover {
+    color: var(--amarelo);
+    transition: all ease 0.8s;
+}
+
+.sidebar-buy-vouchers,
+.sidebar-see-vouchers {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    padding: 3rem 0rem;
+    cursor: pointer;
+}
+
+.sidebar-buy-vouchers.active,
+.sidebar-see-vouchers.active {
+    background-color: #515255;
+}
+
+.sidebar-buy-vouchers.disable,
+.sidebar-see-vouchers.disable,
+.sidebar-logout-icon.disable {
+    pointer-events: none;
+    opacity: 0.7;
+    cursor: no-drop;
+}
+
+.sidebar-buy-vouchers:hover,
+.sidebar-see-vouchers:hover {
+    background-color: #515255;
+    transition: all ease 0.9s;
+    font-size: 1.2rem;
+}
+
+.sidebar-p {
+    text-align: center;
+    width: 6rem;
+    margin: 0.4rem 0rem 0rem 0rem;
+    letter-spacing: 1px;
+}
+
+.sidebar-user {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 4rem 0rem 0rem 0rem;
+}
+
+.sidebar-img-user {
+    width: 4rem;
+    height: 4rem;
+    background-color: white;
+    border-radius: 50%;
+    object-fit: cover;
+    align-self: center;
+    border: 2px solid var(--amarelo);
+}

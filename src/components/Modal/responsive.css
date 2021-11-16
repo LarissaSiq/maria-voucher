@@ -1,0 +1,45 @@
+@media(max-width: 930px) {
+    .modal-voucher {
+        width: 18rem;
+        padding: 0px;
+    }
+
+    .modal-container {
+        min-height: 100vh;
+    }
+
+    .modal-column-row {
+        justify-content: unset;
+    }
+
+    .modal-input-email,
+    .modal-p-code {
+        font-size: 0.7rem;
+    }
+
+    .modal-code,
+    .modal-email {
+        font-size: 0.9rem;
+    }
+
+    .modal-rows {
+        max-height: 3.8rem;
+    }
+
+    .modal-info {
+        padding: 0rem;
+        margin: 0rem;
+        border-top: unset;
+        position: unset;
+        display: flex;
+        border-top: 0vh;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    .modal-btn {
+        font-size: 0.8rem;
+        padding: 0.6rem 3rem;
+    }
+}

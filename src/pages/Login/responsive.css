@@ -1,0 +1,76 @@
+@media(max-width: 930px) {
+
+    .login-container {
+        background-image: none;
+        background-color: var(--amarelo);
+    }
+
+    .login-logo {
+        display: none;
+    }
+
+    .login-form-group {
+        width: 100vw;
+        margin: 0rem 0rem;
+        min-height: 100vh;
+    }
+
+    .login-H1 {
+        display: none;
+    }
+
+    .login-H1-mobile {
+        margin: 1rem 0rem 0.6rem;
+        font-size: 1.6rem;
+        display: block;
+    }
+
+    .login-fieldset {
+        width: 50vw;
+        padding: 0rem 0rem 1rem;
+    }
+
+    .login-input {
+        margin: 0.3rem 1rem;
+        width: 60vw;
+        font-size: 0.8rem;
+    }
+
+    .login-button {
+        margin: 0.6rem 1rem;
+        color: #fff;
+        background-color: var(--cinza);
+        font-weight: bold;
+    }
+
+    .login-p {
+        margin: 0.2rem 0.8em 0rem;
+        padding: 0.6rem 0rem 0rem;
+        font-size: 0.8rem;
+    }
+
+    .login-register {
+        font-size: 0.8rem;
+    }
+
+    .login-p-or {
+        padding: 0.2rem 0rem;
+        font-size: 0.8rem;
+    }
+
+    .login-button-google {
+        margin: 0rem 1rem;
+    }
+
+    .login-logo-mobile {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .login-logo-black-mobile {
+        width: 10rem;
+        margin: 0rem 0rem 0.2rem 0rem
+    }
+}
