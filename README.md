@@ -72,6 +72,7 @@ quantidade de vouchers e seus valores, efetuar o pagamento, gerar os vouchers e 
 └── 📄package.json
  
 ```
+ ---
 
 ## Link para a aplicação
 [Maria Voucher](https://tf-ze-delivery.web.app/)
