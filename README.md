@@ -36,24 +36,22 @@ quantidade de vouchers e seus valores, efetuar o pagamento, gerar os vouchers e 
 |   |
 |   |
 |   ├── 📁assets
-|   |   ├── img
+|   |   └── 📁img
 |   |
 |   |
 |   ├── 📁components
 |   |   ├── 📁Button
 |   |   ├── 📁BuyVoucher
-|   |   ├── 📁CardMask
 |   |   ├── 📁Header
 |   |   ├── 📁Input
-|   |   ├── 📁InputMask
+|   |   ├── 📁Loading
 |   |   ├── 📁Modal
 |   |   ├── 📁Navbar
-|   |   |-  📁Orders
-|   |   |   📁PayVoucher
-|   |   |   📁Pix
-|   |   |   📁SeeVoucher
-|   |   |   📁Sidebar
-|   |   |   📁Validation
+|   |   |── 📁Orders
+|   |   |── 📁PayVoucher
+|   |   |── 📁SeeVoucher
+|   |   |── 📁Sidebar
+|   |   └── 📁Validation
 |   |
 |   |
 |   ├── 📁pages
@@ -64,7 +62,18 @@ quantidade de vouchers e seus valores, efetuar o pagamento, gerar os vouchers e 
 |   |   └── 📁Welcome
 |   |
 |   |
-|
+|   ├── 📁services
+|   |   ├── 📄firebaseConfig.js
+|   |   └── 📄index.js
+|   |
+|   |
+|   ├── 📁utils
+|   |   ├── 📁Pix
+|   |   ├── 📄cardMask.js
+|   |   ├── 📄currency.js
+|   |   └── 📄inputMask.js
+|   |
+|   |
 ├── 📄README.md
 └── 📄package.json
  
