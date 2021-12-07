@@ -7,22 +7,16 @@ por questões de segurança, os happy hours passaram a acontecer também remotam
 Pensando nisso, surgiu a Maria Voucher, uma aplicação Web com foco em empresas que quisessem
 confraternizar de forma virtual, aonde o representante da empresa possa se cadastrar, escolher a
 quantidade de vouchers e seus valores, efetuar o pagamento, gerar os vouchers e compartilhar com seu time.
-
- <br>
-<div align="center">
-  <img alt="desktop" src="./src/img/Desktop2.gif">
-</div>
- Desktop
-<br>
  
-<br>
-<div align="center">
-  <img alt="desktop" width="261" src="./src/img/mobile1.gif">
-  <img alt="desktop"  width="261"src="./src/img/mobile2.gif">
-</div>
- Mobile
-<br>
-
+ ![vouchers](https://user-images.githubusercontent.com/64505863/145117069-4277d8c3-1f0a-42af-b0bf-e99da1259cad.gif)
+ <br>
+ Comprando voucher
+ 
+ ##
+ 
+ ![maria](https://user-images.githubusercontent.com/64505863/145118117-d3634020-9390-4c71-8b93-533621df1bff.gif)
+ <br>
+ Consultando, exportando e enviando voucher
  
 ---
 
